@@ -3,10 +3,10 @@
  */
 
 import {AppRegistry} from 'react-native';
-import Splash from './Component/Splash';
+import Splash from './Component/Splash'; // màn hình chờ
 import {name as appName} from './app.json';
-import Openhuy1 from './Component/Openhuy1';
-import Openhuy2 from './Component/Openhuy2';
+import Openhuy1 from './Component/Openhuy1'; // dao diện 1
+import Openhuy2 from './Component/Openhuy2'; //  dao diện 2
 import React, { useState } from 'react';
 
 function Main(){
@@ -23,4 +23,4 @@ function Main(){
     );
 }
 
-AppRegistry.registerComponent(appName, () => Openhuy2);
+AppRegistry.registerComponent(appName, () => Main);
